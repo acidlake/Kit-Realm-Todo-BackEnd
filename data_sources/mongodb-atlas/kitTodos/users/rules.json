@@ -1,0 +1,17 @@
+{
+    "collection": "users",
+    "database": "kitTodos",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {
+                "realmUserId": "%%user.id"
+            },
+            "read": true,
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {}
+        }
+    ]
+}
